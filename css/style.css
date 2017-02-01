@@ -4,6 +4,11 @@
 
 }
 
+body{
+	background-image:url(../img/bg.jpg);
+	background-size: contain;
+	
+}
 
 
 #logo{
