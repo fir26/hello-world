@@ -41,6 +41,9 @@ th{
 @media screen and (max-width:600px){
 	
 	td,th,tr{
+		display:block;
+	}
+	table{
 		width:100%;
 	}
 
