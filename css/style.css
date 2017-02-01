@@ -20,7 +20,7 @@
 
 
 h1{
-	font-size:1.563em;
+	font-size:8vw;
 
 }
 
@@ -36,3 +36,12 @@ th{
 	background-color:grey;
 }
 
+
+
+@media(max-width:600px){
+	
+	table{
+		display:inline;
+	}
+
+}
