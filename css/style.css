@@ -41,7 +41,7 @@ th{
 @media screen and (max-width:600px){
 	
 	td,th,tr{
-		display:inline;
+		width:100%;
 	}
 
 }
