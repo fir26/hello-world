@@ -38,9 +38,9 @@ th{
 
 
 
-@media(max-width:600px){
+@media screen and (max-width:600px){
 	
-	table{
+	td,th,tr{
 		display:inline;
 	}
 
