@@ -2,6 +2,11 @@
 
 
 
+#header a{
+	text-decoration:none;
+	color: #3498db;
+}
+
 
 #banniere{
 	background-image:url(../img/banniere.jpg);
@@ -12,6 +17,6 @@
 	display:block;
 }
 
-#corps .h1{
+#corps h1{
 
 }
