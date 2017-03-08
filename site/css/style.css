@@ -1,22 +1,333 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color:#DCDCDC;
+	margin:0;
+}
+
+#header{
+	float: left;
+	width: 100%;
+	padding: 0 5%;
+}
 
 
+#header ul{
+	float:right;
+	display:inline;
+	list-style:none;
+	
+
+}
+
+#header li{
+	display:inline;
+
+}
 
 
 #header a{
 	text-decoration:none;
 	color: #3498db;
+	color: #696969;
+	border: 1px solid #696969;
+	border-radius: 10px;
+	background-color: white;
+	padding:4px;
+}
+
+#header input{
+	float:right;
+	margin-top: 11px;
+}
+
+#menu{
+	float:right;
 }
 
 
 #banniere{
-	background-image:url(../img/banniere.jpg);
+	background-image:url(../img/banniere.png);
 	background-repeat: no-repeat;
 	margin:auto;
-	 width: 900px;
-  	height: 300px;
+	width: 1180px;
+  	height: 250px;
 	display:block;
+	border-bottom: 1px solid white;
+	padding-bottom: 10px;
+}
+
+#corps{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	float:left;
+	padding:0 5%;
 }
 
 #corps h1{
+	text-align: center;
+	color:#696969;
+	font-family:fantasy;
+}
+
+#corps p{
+	text-align:center;
+}
+
+.bloc{
+	float:left;
+	border: 2px solid #696969;
+	border-radius: 20px;
+	width:24%;
+	margin-left: 1%;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+
+.bloc img{
+	display:block;
+	margin-left: auto;
+   	margin-right: auto;
+}
+
+
+
+.bloc h2{
+	text-align:center;
+	color:#696969;
+}
+
+#allbloc{
+	width:100%;
+	float:left;
+	margin-top: 2em;
+}
+
+#mapform{
+	width:100%;
+	float:left;
+	margin-top: 2em;
+}
+
+#mapform h2{
+	color:#696969;
+}
+
+#map{
+	float: left;
+	width: 50%;
+	border-right: 2px solid white;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#form{
+	float: left;
+	width: 50%;
+}
+
+.un{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+}
+
+.deux{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	text-align:left;
+}
+
+.first{
+	width: 45%;
+}
+
+.second{
+	width: 45%;
+	margin-left: 10%;
+}
+
+
+.third{
+	width:100%;
+}
+
+.fourth{
+	width:100%;
+	height:15em;
+}
+
+.button{
+	float:right;
+}
+
+#footer{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1em;
+	float:left;
+	padding:0 5%;
+}
+
+#footer p{
+	color:#696969;
+	float:right;
+}
+
+hr{
+	color:white;
+	background-color:white;
+	height:1px;
+}
+
+
+
+
+@media screen and (min-width:721px) and (max-width:1024px){
+	#header img{
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+	}
+	#menu{
+		margin-right: auto;
+		margin-left: auto;
+		width:100%;
+		float:none;
+		display: block;
+		height:50%;
+			
+	}
+	#header input{
+		float: right;
+		margin-top: 11px;
+		width: 49%;
+		margin-left: 1%;
+	}
+	#header ul{
+		float: right;
+		display: inline;
+		list-style: none;
+		width: 49%;
+		text-align: right;
+		margin-right: 1%;
+	}
+	#banniere{
+		display:none;
+	}
+
+
+	.bloc{
+		float: left;
+		border: 2px solid #696969;
+		border-radius: 20px;
+		width: 49%;
+		margin-left: 1%;
+		background-color: white;
+		box-sizing: border-box;
+		margin-top: 3px;
+	}
+
+	.un{
+		margin-top:0;
+	}
+	.second{
+		width:100%;
+		margin-left:0;
+	}
+	.first{
+		width:100%;
+	}
+	.button{
+		width:100%;
+	}
+	#form input{
+		margin-top:0.5em;
+	}
+	
+
+}
+
+
+@media screen and (max-width:720px){
+	#banniere{
+		display:none;
+	}
+
+	#header img{
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+	}
+
+	.bloc{
+		float: left;
+		border: 2px solid #696969;
+		border-radius: 20px;
+		width: 100%;
+		background-color: white;
+		box-sizing: border-box;
+		margin-top: 3px;
+	}
+	#menu{
+		margin-right: auto;
+		margin-left: auto;
+		width:100%;
+		float:none;
+		display: block;
+		height:50%;
+			
+	}
+
+	#header ul{
+		float: right;
+		display: inline;
+		list-style: none;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+	
+	#header input{
+		float: right;
+		margin-top: 11px;
+		width: 100%;
+	}
+	
+	#map{
+		width:100%;
+		border-right:none;
+	}
+	#form{
+		width:100%;
+	}
+
+	.un{
+		margin-top:0;
+	}
+	.second{
+		width:100%;
+		margin-left:0;
+	}
+	.first{
+		width:100%;
+	}
+	.button{
+		width:100%;
+	}
+	#form input{
+		margin-top:0.5em;
+	}
+
+	
+
 
 }
